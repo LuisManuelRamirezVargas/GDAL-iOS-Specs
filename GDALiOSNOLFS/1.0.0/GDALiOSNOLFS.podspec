@@ -9,6 +9,6 @@ Pod::Spec.new do |spec|
     spec.source       = { :git => "https://github.com/LuisManuelRamirezVargas/GDAL-iOS-LFS-Free.git", :tag => "#{spec.version}" }
 
     spec.source_files   = "include/**/*.h"
-    spec.vendored_libraries = 'lib/arm64/libgdal.a', 'lib/x86_64/libgdal-sim.a', 'lib/libproj.a'
+    spec.vendored_libraries = 'lib/libgdal.a', 'lib/libgdal-sim.a', 'lib/libproj.a'
 
 end
